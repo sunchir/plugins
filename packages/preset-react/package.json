@@ -1,6 +1,6 @@
 {
   "name": "@c7n-umi/preset-react",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "@umijs/preset-react",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

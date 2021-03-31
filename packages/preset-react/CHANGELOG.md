@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2021-03-31)
+
+### Bug Fixes
+
+- **v-model:** handle events on blur ([8111d85](https://github.com/umijs/plugins/commit/8111d85f9ce70778cbd1f49923bb5894f9d4df6a))
+- react undefined ([#447](https://github.com/umijs/plugins/issues/447)) ([fe71be1](https://github.com/umijs/plugins/commit/fe71be1c1d08c6297bcf5cc1b3764633fe75bee0))
+- **plugin:** 🚑 Uncommitted version changes ([e0c37b5](https://github.com/umijs/plugins/commit/e0c37b5594f3148ea3431c35aff98bfb9d5cf04a))
+- **preset-react:** sync @umijs/plugin-locale and @umijs/plugin-layout version ([78bdd4b](https://github.com/umijs/plugins/commit/78bdd4b788f77eeb1d2be556d6457c3f501bf564))
+- test plugin lost in preset-react ([efa3239](https://github.com/umijs/plugins/commit/efa3239068dbde9ad442ce69a305abbaccec2c9b))
+- **preset-react:** plugin-utils dep lost ([36fb739](https://github.com/umijs/plugins/commit/36fb739f20a01dcb6bae4e2e77d3daed1b7c9065))
+- make preset-react and example work ([682dacf](https://github.com/umijs/plugins/commit/682dacf4ba42a04035d1cc4e3c0e9d5bc86de8d8))
+
+### Features
+
+- add helmet plugin ([#180](https://github.com/umijs/plugins/issues/180)) ([70ffc80](https://github.com/umijs/plugins/commit/70ffc801a92d784d31f64acbb7488d8296131611))
+- add plugin crossorigin ([b4dc5f6](https://github.com/umijs/plugins/commit/b4dc5f6599117ca09bb1aa923885001efe6a2c09))
+- add plugin-analytics to preset-react ([e9436b5](https://github.com/umijs/plugins/commit/e9436b5ebdb7f550bda3a25e6159674f5bad306d))
+- add plugin-test ([6e4b969](https://github.com/umijs/plugins/commit/6e4b969b08597591579282a293ead2cb2ab5dbbc))
+- crossorigin plugin ([0067dac](https://github.com/umijs/plugins/commit/0067dac8ea73d6bb64fbb431c16c3e8d07eee172))
+- enhancement for mfsu ([#326](https://github.com/umijs/plugins/issues/326)) ([655c0da](https://github.com/umijs/plugins/commit/655c0da475748a0671dd3a5de8ab079dbe1bed5a))
+- implement preset-react ([1f7c400](https://github.com/umijs/plugins/commit/1f7c40031aa190c2283bd156f76cad4f518e1e5b))
+- new umi plugin utils ([#47](https://github.com/umijs/plugins/issues/47)) ([b1173d7](https://github.com/umijs/plugins/commit/b1173d77d2b2b8290bc56a467d18b0bdd5416452))
+- plugin access ([869117e](https://github.com/umijs/plugins/commit/869117ee34272ac77bf35a620384376950d7cd0a))
+- plugin layout ([ce36d43](https://github.com/umijs/plugins/commit/ce36d4327ded684af5c5846e574b5af20d0c708a))
+- support React 17 new JSX syntax ([#445](https://github.com/umijs/plugins/issues/445)) ([7cdb18d](https://github.com/umijs/plugins/commit/7cdb18d81bd802416bc0778f80fe2fa2976d54b0))
+
 # [1.7.0](https://github.com/umijs/plugins/compare/@umijs/preset-react@1.6.19...@umijs/preset-react@1.7.0) (2020-11-19)
 
 ### Bug Fixes

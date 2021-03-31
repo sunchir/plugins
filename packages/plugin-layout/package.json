@@ -1,6 +1,6 @@
 {
   "name": "@c7n-umi/plugin-layout",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "@umijs/plugin-layout",
   "keywords": [
     "umi"
@@ -21,9 +21,9 @@
   "dependencies": {
     "@umijs/route-utils": "^1.0.7",
     "antd": "^4.1.2",
+    "choerodon-ui": "^0.8.77",
     "lodash": "^4.17.15",
-    "path-to-regexp": "1.x",
-    "choerodon-ui": "^0.8.77"
+    "path-to-regexp": "1.x"
   },
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
