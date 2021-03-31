@@ -22,11 +22,13 @@ export interface MenuDataItem {
 
 function haveProLayout() {
   try {
-    require.resolve('@ant-design/pro-layout');
+    require.resolve('@choerodon-ui/pro-layout');
     return true;
   } catch (error) {
     console.log(error);
-    console.error('@umijs/plugin-layout 需要安装 ProLayout 才可运行');
+    console.error(
+      '@c7n-umi/plugin-layout 需要安装 @choerodon-ui/pro-layout 才可运行',
+    );
   }
   return false;
 }
@@ -82,11 +84,11 @@ export default (api: IApi) => {
     const pkg = require('../package.json');
     return [
       {
-        name: '@ant-design/pro-layout',
+        name: '@choerodon-ui/pro-layout',
         range:
-          api.pkg.dependencies?.['@ant-design/pro-layout'] ||
-          api.pkg.devDependencies?.['@ant-design/pro-layout'] ||
-          pkg.peerDependencies['@ant-design/pro-layout'],
+          api.pkg.dependencies?.['@choerodon-ui/pro-layout'] ||
+          api.pkg.devDependencies?.['@choerodon-ui/pro-layout'] ||
+          pkg.peerDependencies['@choerodon-ui/pro-layout'],
       },
       {
         name: '@umijs/route-utils',

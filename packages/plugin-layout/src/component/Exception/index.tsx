@@ -1,6 +1,7 @@
 import React from 'react';
-import { Result, Button } from 'antd';
+import { Button } from 'antd';
 import { history } from 'umi';
+import { Result } from 'choerodon-ui';
 import { IRouteLayoutConfig } from '../../types/interface.d';
 
 function backToHome() {

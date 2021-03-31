@@ -1,6 +1,6 @@
 {
-  "name": "@umijs/plugin-layout",
-  "version": "0.12.5",
+  "name": "@c7n-umi/plugin-layout",
+  "version": "0.2.1",
   "description": "@umijs/plugin-layout",
   "keywords": [
     "umi"
@@ -22,11 +22,12 @@
     "@umijs/route-utils": "^1.0.7",
     "antd": "^4.1.2",
     "lodash": "^4.17.15",
-    "path-to-regexp": "1.x"
+    "path-to-regexp": "1.x",
+    "choerodon-ui": "^0.8.77"
   },
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
-    "@ant-design/pro-layout": "^6.0.0",
+    "@choerodon-ui/pro-layout": "^0.0.0-beta.0",
     "@umijs/plugin-initial-state": "2.x",
     "@umijs/plugin-locale": "0.x",
     "@umijs/plugin-model": "2.x",
@@ -36,6 +37,6 @@
     "access": "public"
   },
   "authors": [
-    "Ariel <1319413542@qq.com> (https://github.com/Ariel-Cheng)"
+    "Sunchir <gxc685@163.com.com> (https://github.com/sunchir)"
   ]
 }

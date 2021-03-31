@@ -1,6 +1,6 @@
-# @umijs/plugin-layout
+# @c7n-umi/plugin-layout
 
-> @umijs/plugin-layout.
+> @c7n-umi/plugin-layout.
 
 See our website [@umijs/plugin-layout](https://umijs.org/plugins/plugin-layout) for more information.
 
@@ -9,11 +9,11 @@ See our website [@umijs/plugin-layout](https://umijs.org/plugins/plugin-layout) 
 Using npm:
 
 ```bash
-$ npm install --save-dev @umijs/plugin-layout
+$ npm install --save-dev @c7n-umi/plugin-layout
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add @umijs/plugin-layout --dev
+$ yarn add @c7n-umi/plugin-layout --dev
 ```

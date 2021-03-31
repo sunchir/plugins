@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // @ts-ignore
 import { Link, useModel, history } from 'umi';
-import ProLayout, { BasicLayoutProps } from '@ant-design/pro-layout';
+import ProLayout, { BasicLayoutProps } from '@choerodon-ui/pro-layout';
 import './style.less';
 import ErrorBoundary from '../component/ErrorBoundary';
 import renderRightContent from './renderRightContent';

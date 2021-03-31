@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Result, Typography } from 'antd';
+import { Typography } from 'antd';
+import { Result } from 'choerodon-ui';
 import { formatMessage } from '../../utils/intl';
 import { Exception500 } from '../Exception';
 
